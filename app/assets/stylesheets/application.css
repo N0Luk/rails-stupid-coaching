@@ -13,3 +13,86 @@
  *= require_tree .
  *= require_self
  */
+
+
+/* Styles for the question container */
+.question {
+  margin: 20px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  background-color: aqua;
+}
+
+.question p {
+  margin: 0;
+}
+
+/* Styles for the answer container */
+.answer {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.answer p {
+  margin: 0;
+}
+
+.answer-title {
+  margin: 20px;
+  color: #12d900;
+}
+
+/* Styles for the link container */
+
+.link-question a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.link-question a:hover {
+  background-color: #0069d9;
+  color: #fff;
+}
+
+/* Styles for the form container */
+form {
+  margin-bottom: 20px;
+}
+
+/* Styles for the input field */
+input[type="text"] {
+  padding: 10px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+/* Styles for the submit button */
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #0cc5a0;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #12d900;
+}
+
+/* Styles for the page title */
+.page-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 20px;
+}
